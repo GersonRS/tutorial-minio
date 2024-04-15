@@ -33,6 +33,7 @@ helm install minio ./minio -f values.yaml
 ```
 
 Este comando instala o MinIO com o nome de release minio.
+
 4. Verificar a Instalação: Verifique o status da instalação do MinIO:
 
 ```bash
@@ -40,6 +41,7 @@ kubectl get pods
 ```
 
 Certifique-se de que os pods do MinIO estejam em execução e prontos antes de prosseguir.
+
 5. Acessar o Console do MinIO: Obtenha acesso do console do MinIO via port-forward:
 
 ```bash
