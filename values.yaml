@@ -1,0 +1,15 @@
+mode: standalone
+
+rootUser: "minio123"
+rootPassword: "miniopass123"
+
+persistence:
+  size: 5Gi
+
+resources:
+  requests:
+    memory: 512Mi
+
+buckets:
+  - name: bucket1
+  - name: bucket2
